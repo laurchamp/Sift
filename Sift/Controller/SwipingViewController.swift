@@ -64,7 +64,8 @@ class SwipingViewController: UIViewController, MDCSwipeToChooseDelegate {
                     index2 += 1
                 }
             }
-            let view = MDCSwipeToChooseView(frame: self.view.bounds, options: options)
+            
+            let view = MDCSwipeToChooseView(frame: (self.navigationController?.view.bounds)!, options: options)
             let newCurrPhoto = self.fetchResult.object(at: index2)
             let photoOptions = PHImageRequestOptions()
             photoOptions.deliveryMode = .highQualityFormat
@@ -84,10 +85,7 @@ class SwipingViewController: UIViewController, MDCSwipeToChooseDelegate {
                 let rect = AVMakeRect(aspectRatio: image.size, insideRect: (view?.imageView.bounds)!)
                 view?.imageView.bounds = rect
                 self.view.addSubview(view!)
-                self.view.contentMode = UIViewContentMode.scaleAspectFit
-                
-
-                
+                self.view.contentMode = UIViewContentMode.scaleAspectFit    
             })
         }
     }
