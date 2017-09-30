@@ -9,6 +9,7 @@ import MDCSwipeToChoose
 import UIKit
 import Photos
 import PhotosUI
+import AVFoundation
 
 class SwipingViewController: UIViewController, MDCSwipeToChooseDelegate {
     
@@ -64,10 +65,11 @@ class SwipingViewController: UIViewController, MDCSwipeToChooseDelegate {
                 }
             }
             let view = MDCSwipeToChooseView(frame: self.view.bounds, options: options)
-            let newCurrPhoto = self.fetchResult.object(at: index2) as! PHAsset
+            let newCurrPhoto = self.fetchResult.object(at: index2)
             let photoOptions = PHImageRequestOptions()
             photoOptions.deliveryMode = .highQualityFormat
             photoOptions.isNetworkAccessAllowed = true
+            photoOptions.resizeMode = PHImageRequestOptionsResizeMode.fast
             
             var targetSize: CGSize {
                 let scale = UIScreen.main.scale
@@ -75,10 +77,16 @@ class SwipingViewController: UIViewController, MDCSwipeToChooseDelegate {
                               height: view!.bounds.height * scale)
             }
             // Request specified image
-            PHImageManager.default().requestImage(for: newCurrPhoto, targetSize: targetSize, contentMode: .aspectFit, options: photoOptions, resultHandler: { image, _ in
+            PHImageManager.default().requestImage(for: newCurrPhoto, targetSize: targetSize, contentMode: .aspectFill, options: photoOptions, resultHandler: { image, _ in
                 guard let image = image else { return }
                 view?.imageView.image = image
+                view?.imageView.contentMode = UIViewContentMode.scaleAspectFit
+                let rect = AVMakeRect(aspectRatio: image.size, insideRect: (view?.imageView.bounds)!)
+                view?.imageView.bounds = rect
                 self.view.addSubview(view!)
+                self.view.contentMode = UIViewContentMode.scaleAspectFit
+                
+
                 
             })
         }
