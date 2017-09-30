@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B4303F28376715E4B3D4D03B116214 /* MDCSwipeToChoose-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5404298BBDFA7A64552EB2E7124CAB55 /* MDCSwipeToChoose-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A351B318729A7740DEEB506327B2341 /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 197BAC41279D9BC92EB1D15427EAE7DD /* UIView+MDCBorderedLabel.m */; };
+		0D494332BB2E1215D96829CDBB7C08C6 /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0934694E7C256D00DC252B373C85C0 /* MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9496197579A24BDCBA3BD934D471C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1D5DDFD7F3B69DF4A7BEC7BC2CC6EB5F /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA06C9D9C2053D02C6A7B00F343B42 /* MDCPanState.m */; };
+		37C2677F3ED14FBFB85822C0A4BB4AE7 /* Pods-SiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069C35DF90663B7FB761C4D1756CF7 /* Pods-SiftTests-dummy.m */; };
+		3FC62A08CCC17C31486D1E91408883BF /* Pods-Sift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A15D8F739CC1D9E6D996470C0C402B /* Pods-Sift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F292DDBD594969F6D6EE8481E2FF03 /* MDCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7A6588BFB9AC6CB44CEB9359D7ED2F /* MDCGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45F60F7E783FBA89B95CEE0A1DC0B949 /* MDCSwipeDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C9ADF6A2828D4E9D2467D94804BC1A /* MDCSwipeDirection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483FF8AF7553AD06CBC75E64B52D7E88 /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = AD817E3CF5B2E8722F01496173A6BACB /* UIColor+MDCRGB8Bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54736CD99EF669F3E911DCFF8CB0D363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5503BA821A70814B29DE6B1E40C484C2 /* Pods-SiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 203CE6A4E59ED76E9413C9652BDA8DDC /* Pods-SiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F5DDCFB8969A855C795B5D6FF91AC8 /* MDCSwipeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3EC66CA311EA2B5B88490FA07373DC /* MDCSwipeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596F8A1691807ADCFB2C25EECE0A49B2 /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = 137FF519138BCEFAA3F428E9F4138123 /* MDCViewState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67FCAABFEC041FC594FBC3A1EF81EB34 /* MDCSwipeToChooseViewOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C642FC6EB14416FFFB1A469C76DCE7 /* MDCSwipeToChooseViewOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBA22D290EFE5C7AB0C3AC253967682 /* UIView+MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = D031AF102641F09844D89647F5AD728B /* UIView+MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87264D96567AAAA0744937B20C69632E /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC72D416E36D8608554E216E5A0EA6C /* UIView+MDCSwipeToChoose.m */; };
+		8E742C30552816EE2295239B0666F520 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E749A555FAAC220C95A09646B36756 /* UIColor+MDCRGB8Bit.m */; };
+		990C37FEE4BA498CB25260821E765413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9A36F47BCCBA3DB56E4A7C2CDB5EF747 /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FB30BBB357272780E993A22EFA278A /* UIView+MDCBorderedLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D2C342CB69CB2E7492F479700327F24 /* Pods-SiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A92357D21E2824B3CC58F514602FB /* Pods-SiftUITests-dummy.m */; };
+		A918D023AF668681D4FE23AB3F679133 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A16EAC33C9DA1593CDCE11F6AF01C2CB /* MDCSwipeToChooseView.m */; };
+		B3C0DD4A68E91CD02B481381CA980E00 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EFA0C584C6BE151DE1B309DF388B12 /* MDCGeometry.m */; };
+		C2D85F704D42E20A6B5B404EF4FC48C0 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1F644CF17FCD7242289C585EF1931 /* MDCViewState.m */; };
+		C67902B6879BF3B631A3483E2034483D /* MDCSwipeToChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A84AA3C6545FA95387C2D6ECC15C372 /* MDCSwipeToChooseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBEF14CB8A7A84CBBD02F10EFCEF990F /* Pods-Sift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB03040C17C05DA2DDD8E2583FFC789 /* Pods-Sift-dummy.m */; };
+		CF5CFB947CC83A8C68B766128417356D /* MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85176B5945465AF7A6C1C5B0D13BBCB4 /* MDCSwipeToChoose-dummy.m */; };
+		D6705FDFE0F51444464041571F5AB09C /* Pods-SiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF7F9D6E5A924C197917A5D75F50324 /* Pods-SiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6869FA45D4A83069762592618FBE507 /* MDCPanState.h in Headers */ = {isa = PBXBuildFile; fileRef = C03FCE2D2B3057E7CB79ABC26383C7A7 /* MDCPanState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B2966A2DF5EA1CF3865E5C5F9D878A /* MDCSwipeToChooseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0D7AD43A339ABC3D1697A140922C8F /* MDCSwipeToChooseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E5649A23A15D0B18EA03641B403E93 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9D407F9DF436EA753B54FA902E63EC /* MDCSwipeResult.m */; };
+		DDBF3E10ED25CF3F3421931C8253603D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E994A9BF3B1B252D2BEBE4E1CEB3F846 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C98A67EC993C3404271B2D656991B7 /* MDCSwipeToChooseViewOptions.m */; };
+		EBAF1B1990F0DE8D8258ED310201C53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EBC7997C6CBC5511857113F381EBDA2E /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2311401E2900A8010676CFA13C091EE /* MDCSwipeOptions.m */; };
+		F16934C562926B5EA773721A97D83214 /* MDCSwipeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF708CD5927C80B556A0DBF104D9CA2 /* MDCSwipeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DA543F1471A43738A78D600AC4DBDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA2B3A7D4217A511C3DA3C92A971D33;
+			remoteInfo = MDCSwipeToChoose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BEC98D3B73344A9578E1EBB5E16363 /* MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDCSwipeToChoose.xcconfig; sourceTree = "<group>"; };
+		0BF14923DFA0013E1AC26B2C55F43DB1 /* Pods-SiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		122592FE431B298E64059B4F43D10378 /* Pods-SiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		137FF519138BCEFAA3F428E9F4138123 /* MDCViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCViewState.h; path = MDCSwipeToChoose/Internal/State/MDCViewState.h; sourceTree = "<group>"; };
+		1541823270924FCF90D0EC5BBCD951B4 /* Pods-SiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		165F8B2F12211610601483949D48B357 /* Pods-Sift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sift-acknowledgements.plist"; sourceTree = "<group>"; };
+		1818EBE2C6C816FA31864FFCB505FD4A /* Pods-SiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1867EA8681B0465EA7AA88348C6EECBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197BAC41279D9BC92EB1D15427EAE7DD /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCBorderedLabel.m"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		1A84AA3C6545FA95387C2D6ECC15C372 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseView.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		203CE6A4E59ED76E9413C9652BDA8DDC /* Pods-SiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SiftTests-umbrella.h"; sourceTree = "<group>"; };
+		35958D9A1BA39CA3DB24B095A904A01A /* MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
+		3B52231674085D13037C3C71DE89DC67 /* Pods-Sift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sift.release.xcconfig"; sourceTree = "<group>"; };
+		3F3150ADE67D661F6FFF445EBDD7C129 /* Pods-SiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45C9ADF6A2828D4E9D2467D94804BC1A /* MDCSwipeDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeDirection.h; path = MDCSwipeToChoose/Public/State/MDCSwipeDirection.h; sourceTree = "<group>"; };
+		4BEA06C9D9C2053D02C6A7B00F343B42 /* MDCPanState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPanState.m; path = MDCSwipeToChoose/Public/State/MDCPanState.m; sourceTree = "<group>"; };
+		4F0934694E7C256D00DC252B373C85C0 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChoose.h; path = MDCSwipeToChoose/Public/MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		53EFA0C584C6BE151DE1B309DF388B12 /* MDCGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCGeometry.m; path = MDCSwipeToChoose/Internal/MDCGeometry.m; sourceTree = "<group>"; };
+		5404298BBDFA7A64552EB2E7124CAB55 /* MDCSwipeToChoose-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-umbrella.h"; sourceTree = "<group>"; };
+		55069C35DF90663B7FB761C4D1756CF7 /* Pods-SiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiftTests-dummy.m"; sourceTree = "<group>"; };
+		5BC72D416E36D8608554E216E5A0EA6C /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCSwipeToChoose.m"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		60597CE5872835FD75717796F80D9568 /* Pods-SiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SiftTests.modulemap"; sourceTree = "<group>"; };
+		614A7BC7B23577C4DE498D6715ECA7E5 /* Pods-SiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SiftUITests.modulemap"; sourceTree = "<group>"; };
+		637E518555FECFAB8EF2EB29CA13AAA8 /* Pods-SiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6622B02BD5B2182A2A2A716DA3A1CDEB /* Pods-SiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		66C642FC6EB14416FFFB1A469C76DCE7 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseViewOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		68A15D8F739CC1D9E6D996470C0C402B /* Pods-Sift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sift-umbrella.h"; sourceTree = "<group>"; };
+		6AF7F9D6E5A924C197917A5D75F50324 /* Pods-SiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		6B7A6588BFB9AC6CB44CEB9359D7ED2F /* MDCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCGeometry.h; path = MDCSwipeToChoose/Internal/MDCGeometry.h; sourceTree = "<group>"; };
+		71F09018A5099B721DE90B88FEDF328F /* Pods_Sift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sift.framework; path = "Pods-Sift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E4B13047D7A16B61945A457B922DDF /* Pods-Sift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Sift.modulemap"; sourceTree = "<group>"; };
+		7BF708CD5927C80B556A0DBF104D9CA2 /* MDCSwipeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeResult.h; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.h; sourceTree = "<group>"; };
+		7F6A92357D21E2824B3CC58F514602FB /* Pods-SiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiftUITests-dummy.m"; sourceTree = "<group>"; };
+		82E749A555FAAC220C95A09646B36756 /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MDCRGB8Bit.m"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		85176B5945465AF7A6C1C5B0D13BBCB4 /* MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
+		8AE7728E7ADA62E0C77C43E68CF5AE4F /* Pods-SiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BBDFC67F294AD740909E057DA7AEEC6 /* Pods_SiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SiftTests.framework; path = "Pods-SiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3EC66CA311EA2B5B88490FA07373DC /* MDCSwipeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C0D7AD43A339ABC3D1697A140922C8F /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseDelegate.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		9C754976DABDDF042A8C03BC19E3724A /* Pods-Sift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A16EAC33C9DA1593CDCE11F6AF01C2CB /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseView.m; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		A2FABEEF19C0BC72024BFECC38204BDA /* Pods-SiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4C98A67EC993C3404271B2D656991B7 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseViewOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		A94AABFAF20E2DE69DCD7CD396115410 /* Pods-Sift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sift-frameworks.sh"; sourceTree = "<group>"; };
+		AA9EAC0F127A5805821112DC749C3A56 /* MDCSwipeToChoose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDCSwipeToChoose.framework; path = MDCSwipeToChoose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD817E3CF5B2E8722F01496173A6BACB /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MDCRGB8Bit.h"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		AE7E26905548CFF43B36AD62600AAD36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6CF06D5209DDFFF9D4A6181FE428AEA /* Pods-Sift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sift.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3BD8B49672A98F5B4B5B9B3206791E /* Pods-SiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiftTests-resources.sh"; sourceTree = "<group>"; };
+		C03FCE2D2B3057E7CB79ABC26383C7A7 /* MDCPanState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPanState.h; path = MDCSwipeToChoose/Public/State/MDCPanState.h; sourceTree = "<group>"; };
+		C08BFE3E6E63DCF0AA643C3ED8A71881 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2311401E2900A8010676CFA13C091EE /* MDCSwipeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m; sourceTree = "<group>"; };
+		CDB03040C17C05DA2DDD8E2583FFC789 /* Pods-Sift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sift-dummy.m"; sourceTree = "<group>"; };
+		CFD76E76835977C5D3BEC064C0BFA0A7 /* Pods-SiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiftUITests-resources.sh"; sourceTree = "<group>"; };
+		D031AF102641F09844D89647F5AD728B /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCSwipeToChoose.h"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		D0FB30BBB357272780E993A22EFA278A /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCBorderedLabel.h"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		D377F2186D8F6B98204C5100009AE7C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB678BB2FD54531EF25592DD3F6D7E03 /* Pods-Sift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sift-resources.sh"; sourceTree = "<group>"; };
+		DB9D407F9DF436EA753B54FA902E63EC /* MDCSwipeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeResult.m; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.m; sourceTree = "<group>"; };
+		DF542502D84CE1996C577A8FE357B9B1 /* MDCSwipeToChoose.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MDCSwipeToChoose.modulemap; sourceTree = "<group>"; };
+		EDF8B0113C36D3886CDAE1A765C22BD1 /* Pods_SiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SiftUITests.framework; path = "Pods-SiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2977B0FF452C24228243214BF2BA19D /* Pods-SiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6C1F644CF17FCD7242289C585EF1931 /* MDCViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCViewState.m; path = MDCSwipeToChoose/Internal/State/MDCViewState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E8A0A4F0E7E007E5013E751A8A1ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54736CD99EF669F3E911DCFF8CB0D363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDC1AB1A63261E0D5860DA60CCFFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9496197579A24BDCBA3BD934D471C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A802A40AF60614D821B0C538416A5657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAF1B1990F0DE8D8258ED310201C53B /* Foundation.framework in Frameworks */,
+				990C37FEE4BA498CB25260821E765413 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C793FB66457BC65736522AD6A7EB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF3E10ED25CF3F3421931C8253603D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067192D2CC228C96F83E99F01A2B7F2F /* Pods-Sift */ = {
+			isa = PBXGroup;
+			children = (
+				AE7E26905548CFF43B36AD62600AAD36 /* Info.plist */,
+				73E4B13047D7A16B61945A457B922DDF /* Pods-Sift.modulemap */,
+				9C754976DABDDF042A8C03BC19E3724A /* Pods-Sift-acknowledgements.markdown */,
+				165F8B2F12211610601483949D48B357 /* Pods-Sift-acknowledgements.plist */,
+				CDB03040C17C05DA2DDD8E2583FFC789 /* Pods-Sift-dummy.m */,
+				A94AABFAF20E2DE69DCD7CD396115410 /* Pods-Sift-frameworks.sh */,
+				DB678BB2FD54531EF25592DD3F6D7E03 /* Pods-Sift-resources.sh */,
+				68A15D8F739CC1D9E6D996470C0C402B /* Pods-Sift-umbrella.h */,
+				B6CF06D5209DDFFF9D4A6181FE428AEA /* Pods-Sift.debug.xcconfig */,
+				3B52231674085D13037C3C71DE89DC67 /* Pods-Sift.release.xcconfig */,
+			);
+			name = "Pods-Sift";
+			path = "Target Support Files/Pods-Sift";
+			sourceTree = "<group>";
+		};
+		181C426599B568EEBB5956BA872D299A /* Pods-SiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D377F2186D8F6B98204C5100009AE7C1 /* Info.plist */,
+				60597CE5872835FD75717796F80D9568 /* Pods-SiftTests.modulemap */,
+				637E518555FECFAB8EF2EB29CA13AAA8 /* Pods-SiftTests-acknowledgements.markdown */,
+				8AE7728E7ADA62E0C77C43E68CF5AE4F /* Pods-SiftTests-acknowledgements.plist */,
+				55069C35DF90663B7FB761C4D1756CF7 /* Pods-SiftTests-dummy.m */,
+				6622B02BD5B2182A2A2A716DA3A1CDEB /* Pods-SiftTests-frameworks.sh */,
+				BA3BD8B49672A98F5B4B5B9B3206791E /* Pods-SiftTests-resources.sh */,
+				203CE6A4E59ED76E9413C9652BDA8DDC /* Pods-SiftTests-umbrella.h */,
+				122592FE431B298E64059B4F43D10378 /* Pods-SiftTests.debug.xcconfig */,
+				F2977B0FF452C24228243214BF2BA19D /* Pods-SiftTests.release.xcconfig */,
+			);
+			name = "Pods-SiftTests";
+			path = "Target Support Files/Pods-SiftTests";
+			sourceTree = "<group>";
+		};
+		1D0172F131662ED518DCF49B0F4DA311 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08BFE3E6E63DCF0AA643C3ED8A71881 /* Info.plist */,
+				DF542502D84CE1996C577A8FE357B9B1 /* MDCSwipeToChoose.modulemap */,
+				03BEC98D3B73344A9578E1EBB5E16363 /* MDCSwipeToChoose.xcconfig */,
+				85176B5945465AF7A6C1C5B0D13BBCB4 /* MDCSwipeToChoose-dummy.m */,
+				35958D9A1BA39CA3DB24B095A904A01A /* MDCSwipeToChoose-prefix.pch */,
+				5404298BBDFA7A64552EB2E7124CAB55 /* MDCSwipeToChoose-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDCSwipeToChoose";
+			sourceTree = "<group>";
+		};
+		1D137903419EC6E1EA0A80EC26E094CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCBC4F99495225BEE18BAF4441C065E9 /* MDCSwipeToChoose */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1D137903419EC6E1EA0A80EC26E094CF /* Pods */,
+				E9EC61537335576F5D31AE496C508652 /* Products */,
+				ADF2BF1374879BB45365243465B268E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		845F2878ECDA8D4610E8E70440214213 /* Pods-SiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1867EA8681B0465EA7AA88348C6EECBE /* Info.plist */,
+				614A7BC7B23577C4DE498D6715ECA7E5 /* Pods-SiftUITests.modulemap */,
+				3F3150ADE67D661F6FFF445EBDD7C129 /* Pods-SiftUITests-acknowledgements.markdown */,
+				A2FABEEF19C0BC72024BFECC38204BDA /* Pods-SiftUITests-acknowledgements.plist */,
+				7F6A92357D21E2824B3CC58F514602FB /* Pods-SiftUITests-dummy.m */,
+				1541823270924FCF90D0EC5BBCD951B4 /* Pods-SiftUITests-frameworks.sh */,
+				CFD76E76835977C5D3BEC064C0BFA0A7 /* Pods-SiftUITests-resources.sh */,
+				6AF7F9D6E5A924C197917A5D75F50324 /* Pods-SiftUITests-umbrella.h */,
+				0BF14923DFA0013E1AC26B2C55F43DB1 /* Pods-SiftUITests.debug.xcconfig */,
+				1818EBE2C6C816FA31864FFCB505FD4A /* Pods-SiftUITests.release.xcconfig */,
+			);
+			name = "Pods-SiftUITests";
+			path = "Target Support Files/Pods-SiftUITests";
+			sourceTree = "<group>";
+		};
+		ADF2BF1374879BB45365243465B268E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				067192D2CC228C96F83E99F01A2B7F2F /* Pods-Sift */,
+				181C426599B568EEBB5956BA872D299A /* Pods-SiftTests */,
+				845F2878ECDA8D4610E8E70440214213 /* Pods-SiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9EC61537335576F5D31AE496C508652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9EAC0F127A5805821112DC749C3A56 /* MDCSwipeToChoose.framework */,
+				71F09018A5099B721DE90B88FEDF328F /* Pods_Sift.framework */,
+				8BBDFC67F294AD740909E057DA7AEEC6 /* Pods_SiftTests.framework */,
+				EDF8B0113C36D3886CDAE1A765C22BD1 /* Pods_SiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBC4F99495225BEE18BAF4441C065E9 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				6B7A6588BFB9AC6CB44CEB9359D7ED2F /* MDCGeometry.h */,
+				53EFA0C584C6BE151DE1B309DF388B12 /* MDCGeometry.m */,
+				C03FCE2D2B3057E7CB79ABC26383C7A7 /* MDCPanState.h */,
+				4BEA06C9D9C2053D02C6A7B00F343B42 /* MDCPanState.m */,
+				45C9ADF6A2828D4E9D2467D94804BC1A /* MDCSwipeDirection.h */,
+				8E3EC66CA311EA2B5B88490FA07373DC /* MDCSwipeOptions.h */,
+				C2311401E2900A8010676CFA13C091EE /* MDCSwipeOptions.m */,
+				7BF708CD5927C80B556A0DBF104D9CA2 /* MDCSwipeResult.h */,
+				DB9D407F9DF436EA753B54FA902E63EC /* MDCSwipeResult.m */,
+				4F0934694E7C256D00DC252B373C85C0 /* MDCSwipeToChoose.h */,
+				9C0D7AD43A339ABC3D1697A140922C8F /* MDCSwipeToChooseDelegate.h */,
+				1A84AA3C6545FA95387C2D6ECC15C372 /* MDCSwipeToChooseView.h */,
+				A16EAC33C9DA1593CDCE11F6AF01C2CB /* MDCSwipeToChooseView.m */,
+				66C642FC6EB14416FFFB1A469C76DCE7 /* MDCSwipeToChooseViewOptions.h */,
+				A4C98A67EC993C3404271B2D656991B7 /* MDCSwipeToChooseViewOptions.m */,
+				137FF519138BCEFAA3F428E9F4138123 /* MDCViewState.h */,
+				F6C1F644CF17FCD7242289C585EF1931 /* MDCViewState.m */,
+				AD817E3CF5B2E8722F01496173A6BACB /* UIColor+MDCRGB8Bit.h */,
+				82E749A555FAAC220C95A09646B36756 /* UIColor+MDCRGB8Bit.m */,
+				D0FB30BBB357272780E993A22EFA278A /* UIView+MDCBorderedLabel.h */,
+				197BAC41279D9BC92EB1D15427EAE7DD /* UIView+MDCBorderedLabel.m */,
+				D031AF102641F09844D89647F5AD728B /* UIView+MDCSwipeToChoose.h */,
+				5BC72D416E36D8608554E216E5A0EA6C /* UIView+MDCSwipeToChoose.m */,
+				1D0172F131662ED518DCF49B0F4DA311 /* Support Files */,
+			);
+			name = MDCSwipeToChoose;
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		378C3BC39E43F0669871EFD6BF818FBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC62A08CCC17C31486D1E91408883BF /* Pods-Sift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CE675314C0DFE49194CD7073FDC8A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6705FDFE0F51444464041571F5AB09C /* Pods-SiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5AB11CF02DB08C3EA94B516ABB96EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503BA821A70814B29DE6B1E40C484C2 /* Pods-SiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48EF4FB1F84A15D1636753B97D2AC4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F292DDBD594969F6D6EE8481E2FF03 /* MDCGeometry.h in Headers */,
+				D6869FA45D4A83069762592618FBE507 /* MDCPanState.h in Headers */,
+				45F60F7E783FBA89B95CEE0A1DC0B949 /* MDCSwipeDirection.h in Headers */,
+				56F5DDCFB8969A855C795B5D6FF91AC8 /* MDCSwipeOptions.h in Headers */,
+				F16934C562926B5EA773721A97D83214 /* MDCSwipeResult.h in Headers */,
+				04B4303F28376715E4B3D4D03B116214 /* MDCSwipeToChoose-umbrella.h in Headers */,
+				0D494332BB2E1215D96829CDBB7C08C6 /* MDCSwipeToChoose.h in Headers */,
+				D8B2966A2DF5EA1CF3865E5C5F9D878A /* MDCSwipeToChooseDelegate.h in Headers */,
+				C67902B6879BF3B631A3483E2034483D /* MDCSwipeToChooseView.h in Headers */,
+				67FCAABFEC041FC594FBC3A1EF81EB34 /* MDCSwipeToChooseViewOptions.h in Headers */,
+				596F8A1691807ADCFB2C25EECE0A49B2 /* MDCViewState.h in Headers */,
+				483FF8AF7553AD06CBC75E64B52D7E88 /* UIColor+MDCRGB8Bit.h in Headers */,
+				9A36F47BCCBA3DB56E4A7C2CDB5EF747 /* UIView+MDCBorderedLabel.h in Headers */,
+				6FBA22D290EFE5C7AB0C3AC253967682 /* UIView+MDCSwipeToChoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02A1055100E5F4B3363F39EDA338CDA3 /* Pods-SiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D9B2A3592384122C0F5B26F95B341B /* Build configuration list for PBXNativeTarget "Pods-SiftUITests" */;
+			buildPhases = (
+				AABFA1BD486F8F40EA884444D5E8DC0D /* Sources */,
+				9AFDC1AB1A63261E0D5860DA60CCFFAB /* Frameworks */,
+				59CE675314C0DFE49194CD7073FDC8A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SiftUITests";
+			productName = "Pods-SiftUITests";
+			productReference = EDF8B0113C36D3886CDAE1A765C22BD1 /* Pods_SiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0FA2B3A7D4217A511C3DA3C92A971D33 /* MDCSwipeToChoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A185C851E23B7397D2EB1963D90149 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */;
+			buildPhases = (
+				9BA76DD6A62A835A09E7FC92956D5BE5 /* Sources */,
+				A802A40AF60614D821B0C538416A5657 /* Frameworks */,
+				A48EF4FB1F84A15D1636753B97D2AC4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDCSwipeToChoose;
+			productName = MDCSwipeToChoose;
+			productReference = AA9EAC0F127A5805821112DC749C3A56 /* MDCSwipeToChoose.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9BA5FCC7DA3D33CE72F27A4D439468E /* Pods-Sift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE32538C3560EE2BE2F2F4EE620F5148 /* Build configuration list for PBXNativeTarget "Pods-Sift" */;
+			buildPhases = (
+				81F5444A02B44AAD42A56C272B52042A /* Sources */,
+				63E8A0A4F0E7E007E5013E751A8A1ECB /* Frameworks */,
+				378C3BC39E43F0669871EFD6BF818FBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0756A8ABE0CC998354782DECB8DF8D /* PBXTargetDependency */,
+			);
+			name = "Pods-Sift";
+			productName = "Pods-Sift";
+			productReference = 71F09018A5099B721DE90B88FEDF328F /* Pods_Sift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAC1B79884369F21CCBE4460AF572923 /* Pods-SiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DC7E4D114042A8C41DF7C88A3A3E85 /* Build configuration list for PBXNativeTarget "Pods-SiftTests" */;
+			buildPhases = (
+				45386E41E6D1C3B33E28C153D7ACDFB8 /* Sources */,
+				C1C793FB66457BC65736522AD6A7EB4F /* Frameworks */,
+				8A5AB11CF02DB08C3EA94B516ABB96EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SiftTests";
+			productName = "Pods-SiftTests";
+			productReference = 8BBDFC67F294AD740909E057DA7AEEC6 /* Pods_SiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E9EC61537335576F5D31AE496C508652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA2B3A7D4217A511C3DA3C92A971D33 /* MDCSwipeToChoose */,
+				B9BA5FCC7DA3D33CE72F27A4D439468E /* Pods-Sift */,
+				DAC1B79884369F21CCBE4460AF572923 /* Pods-SiftTests */,
+				02A1055100E5F4B3363F39EDA338CDA3 /* Pods-SiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45386E41E6D1C3B33E28C153D7ACDFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C2677F3ED14FBFB85822C0A4BB4AE7 /* Pods-SiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F5444A02B44AAD42A56C272B52042A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF14CB8A7A84CBBD02F10EFCEF990F /* Pods-Sift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA76DD6A62A835A09E7FC92956D5BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0DD4A68E91CD02B481381CA980E00 /* MDCGeometry.m in Sources */,
+				1D5DDFD7F3B69DF4A7BEC7BC2CC6EB5F /* MDCPanState.m in Sources */,
+				EBC7997C6CBC5511857113F381EBDA2E /* MDCSwipeOptions.m in Sources */,
+				D8E5649A23A15D0B18EA03641B403E93 /* MDCSwipeResult.m in Sources */,
+				CF5CFB947CC83A8C68B766128417356D /* MDCSwipeToChoose-dummy.m in Sources */,
+				A918D023AF668681D4FE23AB3F679133 /* MDCSwipeToChooseView.m in Sources */,
+				E994A9BF3B1B252D2BEBE4E1CEB3F846 /* MDCSwipeToChooseViewOptions.m in Sources */,
+				C2D85F704D42E20A6B5B404EF4FC48C0 /* MDCViewState.m in Sources */,
+				8E742C30552816EE2295239B0666F520 /* UIColor+MDCRGB8Bit.m in Sources */,
+				0A351B318729A7740DEEB506327B2341 /* UIView+MDCBorderedLabel.m in Sources */,
+				87264D96567AAAA0744937B20C69632E /* UIView+MDCSwipeToChoose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABFA1BD486F8F40EA884444D5E8DC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2C342CB69CB2E7492F479700327F24 /* Pods-SiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A0756A8ABE0CC998354782DECB8DF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDCSwipeToChoose;
+			target = 0FA2B3A7D4217A511C3DA3C92A971D33 /* MDCSwipeToChoose */;
+			targetProxy = 4DA543F1471A43738A78D600AC4DBDC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28B5014E410354B67D8DD9A8F422BAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122592FE431B298E64059B4F43D10378 /* Pods-SiftTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiftTests/Pods-SiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E1104F48932BDD50C0EF3E88B899703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF14923DFA0013E1AC26B2C55F43DB1 /* Pods-SiftUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiftUITests/Pods-SiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FE0A10F2A2B572C3A0F8939B2297570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1818EBE2C6C816FA31864FFCB505FD4A /* Pods-SiftUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiftUITests/Pods-SiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		688BD5D800589E9BADD256928BA2FC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B52231674085D13037C3C71DE89DC67 /* Pods-Sift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sift/Pods-Sift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF0116303010294B800C4D64FDFFFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BEC98D3B73344A9578E1EBB5E16363 /* MDCSwipeToChoose.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDCSwipeToChoose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MDCSwipeToChoose;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7F2FEF98D365AB1EC02D96088E4A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BEC98D3B73344A9578E1EBB5E16363 /* MDCSwipeToChoose.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDCSwipeToChoose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MDCSwipeToChoose;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9505B6AE5FCFFAC0F7A43F5E961373B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2977B0FF452C24228243214BF2BA19D /* Pods-SiftTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiftTests/Pods-SiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F8BBA438225FF47BEAA2E08EC0007080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CF06D5209DDFFF9D4A6181FE428AEA /* Pods-Sift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sift/Pods-Sift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DC7E4D114042A8C41DF7C88A3A3E85 /* Build configuration list for PBXNativeTarget "Pods-SiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B5014E410354B67D8DD9A8F422BAFC /* Debug */,
+				D9505B6AE5FCFFAC0F7A43F5E961373B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A185C851E23B7397D2EB1963D90149 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F2FEF98D365AB1EC02D96088E4A9CB /* Debug */,
+				7FF0116303010294B800C4D64FDFFFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D9B2A3592384122C0F5B26F95B341B /* Build configuration list for PBXNativeTarget "Pods-SiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1104F48932BDD50C0EF3E88B899703 /* Debug */,
+				5FE0A10F2A2B572C3A0F8939B2297570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE32538C3560EE2BE2F2F4EE620F5148 /* Build configuration list for PBXNativeTarget "Pods-Sift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BBA438225FF47BEAA2E08EC0007080 /* Debug */,
+				688BD5D800589E9BADD256928BA2FC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

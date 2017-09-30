@@ -1,0 +1,6 @@
+framework module Pods_SiftTests {
+  umbrella header "Pods-SiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
