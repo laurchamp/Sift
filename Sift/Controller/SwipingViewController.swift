@@ -103,8 +103,9 @@ class SwipingViewController: UIViewController, MDCSwipeToChooseDelegate {
             // Remove asset from album
             PHPhotoLibrary.shared().performChanges({
                 // Combine change requests into one change block so user is not asked permission on each swipe, but only at end
+                let request = PHAssetCollectionChangeRequest(for: self.currAlbum)!
                 for i in 0 ... self.picturesToDelete.count - 1{
-                    let request = PHAssetCollectionChangeRequest(for: self.currAlbum)!
+
                     request.removeAssets([self.fetchResult.object(at: self.picturesToDelete[i])] as NSArray)
                 }
             }, completionHandler: completion)
